@@ -1,0 +1,30 @@
+.titulo{
+    text-align: center;
+    background-color: black;
+    
+}
+
+.barra-vermelha {
+  width: 100%;
+  height: 6px;
+  background-color: #d10000; 
+}
+
+body {
+    background-color: rgb(78, 78, 78);
+}
+
+.menu {
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    display: flex;
+    gap: 40px; 
+    justify-content: center;
+}
+
+
+.menu p {
+    margin: 0; 
+}
+
