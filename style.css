@@ -1,7 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .titulo{
     text-align: center;
     background-color: black;
-    
+    background-size: 100px;
 }
 
 .barra-vermelha {
@@ -15,9 +20,9 @@ body {
 }
 
 .menu {
-    font-size: 30px;
+    font-size: 16px;
     color: white;
-    padding: 15px;
+    padding: 5px;
     display: flex;
     gap: 40px; 
     justify-content: center;
@@ -27,4 +32,31 @@ body {
 .menu p {
     margin: 0; 
 }
+
+.barra-vermelha-abaixo{
+  width: 100%;
+  height: 2px;
+  padding-left: 10px;
+  background-color: #d10000; 
+}
+
+.sobreT{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.conteudo{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+
+h2{
+    color:#d10000
+}
+
+
 
