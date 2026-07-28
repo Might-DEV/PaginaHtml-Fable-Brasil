@@ -7,16 +7,16 @@
     <title>Fable Brasil - Notícias</title>
   </head>
   <body>
-    <!-- Topo IDÊNTICO -->
+    <!-- Topo -->
     <div class="titulo">
       <h1 id="tituloSite">Fable Brasil</h1>
       <img src="./image/fablelogo.png" alt="Fable Brasil" width="300px" />
     </div>
     <div class="barra-vermelha"></div>
-    
-    <!-- Menu IDÊNTICO -->
+
+    <!-- Menu -->
     <div class="menu">
-      <a class="menu-link" href="index.html">NOTÍCIAS</a>
+      <a class="menu-link ativo" href="index.html">NOTÍCIAS</a>
       <a class="menu-link" href="#">JOGOS DA FRANQUIA</a>
       <a class="menu-link" href="#">ANÁLISES</a>
       <a class="menu-link" href="#">FOTOS</a>
@@ -25,10 +25,120 @@
     </div>
     <div class="barra-vermelha-abaixo"></div>
 
-    <!-- Conteúdo Único da Página Inicial -->
-    <div class="conteudo-principal">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/3iW1i78zFvk?si=dLEx1ukb4pYQ92--" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- Hero / Destaque -->
+    <section class="hero">
+      <span class="hero-tag">DESTAQUE</span>
+      <h2 class="hero-titulo">Trailer de Fable mostra o novo Albion em detalhes</h2>
+      <iframe
+        src="https://www.youtube.com/embed/3iW1i78zFvk?si=dLEx1ukb4pYQ92--"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
       <p class="textoDescricao">TRAILER FABLE 4</p>
+    </section>
+
+    <!-- Conteúdo principal: grid de notícias + sidebar -->
+    <div class="conteudo-principal">
+      <div class="coluna-noticias">
+        <h3 class="secao-titulo">Últimas Notícias</h3>
+        <div class="grid-noticias">
+          <a class="card" href="#">
+            <div class="card-thumb">FABLE</div>
+            <div class="card-corpo">
+              <span class="card-categoria">Novidade</span>
+              <h4 class="card-titulo">Playground Games revela nova arte conceitual de Fable</h4>
+              <p class="card-resumo">Estúdio compartilha imagens que mostram o visual sombrio e cômico da nova Albion.</p>
+            </div>
+          </a>
+
+          <a class="card" href="#">
+            <div class="card-thumb">FABLE</div>
+            <div class="card-corpo">
+              <span class="card-categoria">Data de Lançamento</span>
+              <h4 class="card-titulo">Rumores apontam janela de lançamento para o próximo ano</h4>
+              <p class="card-resumo">Fontes internas sugerem que o jogo pode chegar em 2027, segundo insiders da indústria.</p>
+            </div>
+          </a>
+
+          <a class="card" href="#">
+            <div class="card-thumb">GAMEPLAY</div>
+            <div class="card-corpo">
+              <span class="card-categoria">Gameplay</span>
+              <h4 class="card-titulo">Sistema de combate ganha novos detalhes em entrevista</h4>
+              <p class="card-resumo">Diretores explicam como a magia e o combate corpo a corpo vão se combinar no novo título.</p>
+            </div>
+          </a>
+
+          <a class="card" href="#">
+            <div class="card-thumb">CURIOSIDADE</div>
+            <div class="card-corpo">
+              <span class="card-categoria">Retrospectiva</span>
+              <h4 class="card-titulo">Relembre a trilogia clássica de Fable antes do relançamento</h4>
+              <p class="card-resumo">Uma volta aos jogos que marcaram uma geração de RPGs britânicos com humor peculiar.</p>
+            </div>
+          </a>
+
+          <a class="card" href="#">
+            <div class="card-thumb">COMUNIDADE</div>
+            <div class="card-corpo">
+              <span class="card-categoria">Comunidade</span>
+              <h4 class="card-titulo">Fãs brasileiros criam petição por dublagem em português</h4>
+              <p class="card-resumo">Movimento nas redes sociais pede localização completa para o público brasileiro.</p>
+            </div>
+          </a>
+
+          <a class="card" href="#">
+            <div class="card-thumb">EVENTO</div>
+            <div class="card-corpo">
+              <span class="card-categoria">Evento</span>
+              <h4 class="card-titulo">Novo gameplay pode ser mostrado em próxima feira de games</h4>
+              <p class="card-resumo">Especulação cresce sobre uma possível apresentação ao vivo nos próximos meses.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <aside class="sidebar">
+        <div class="widget">
+          <h3 class="secao-titulo">Mais Lidas</h3>
+          <ol class="mais-lidas-lista">
+            <li>
+              <span class="mais-lidas-numero">01</span>
+              <span class="mais-lidas-texto"><a href="#">Tudo o que sabemos sobre o novo Fable até agora</a></span>
+            </li>
+            <li>
+              <span class="mais-lidas-numero">02</span>
+              <span class="mais-lidas-texto"><a href="#">Comparativo: como Fable evoluiu graficamente ao longo dos anos</a></span>
+            </li>
+            <li>
+              <span class="mais-lidas-numero">03</span>
+              <span class="mais-lidas-texto"><a href="#">5 personagens que esperamos ver no novo jogo</a></span>
+            </li>
+            <li>
+              <span class="mais-lidas-numero">04</span>
+              <span class="mais-lidas-texto"><a href="#">Trailer oficial ultrapassa 1 milhão de visualizações</a></span>
+            </li>
+          </ol>
+        </div>
+
+        <div class="widget">
+          <h3 class="secao-titulo">Redes Sociais</h3>
+          <div class="social-lista">
+            <a href="#">DISCORD DA COMUNIDADE</a>
+            <a href="#">INSTAGRAM</a>
+            <a href="#">X / TWITTER</a>
+          </div>
+        </div>
+      </aside>
     </div>
+
+    <footer class="rodape">
+      <p>&mdash; FABLE BRASIL &mdash;</p>
+      <br>
+      <P>CRIADO POR MARLON SANTOS</P>
+    </footer>
   </body>
 </html>
