@@ -58,5 +58,22 @@ h2{
     color:#d10000
 }
 
+iframe {
+    width: 600px;
+    height: 600;
+    display: block;
+    margin: 0;
+    padding: 10px;
+
+}
+
+.textoDescricao {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 0;
+    padding-left: 200px;
+
+}
 
 
